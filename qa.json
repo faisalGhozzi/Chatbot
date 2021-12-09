@@ -1,0 +1,57 @@
+{"intents" :[
+    {
+        "tag": "salutations",
+        "exemples": ["bonjour","salut","bonsoir","coucou"],
+        "reponses": ["bonjour, comment puis-je vous aider ?","salut, comment puis-je vous aider ?","salem, comment puis-je vous aider ?","asslema, comment puis-je vous aider ?"],
+        "context_set": ""
+    },
+    {   
+        "tag": "accueil",
+        "exemples": ["Comment puis-je gérer la conception de ma page d’accueil ?","page d'accueil","page accueil","accueil","gestion accueil","conception"],
+        "reponses": ["Vous pouvez facilement personnaliser le contenu de votre page d’accueil en sélectionnant le signe «+» situé dans le coin supérieur droit de tout portlet. Vous pouvez ensuite facilement ajouter ou supprimer des potlets à partir de votre écran d’accueil."],
+        "context_set" : ""
+    },
+    {
+        "tag": "alertes",
+        "exemples": ["Puis-je recevoir des alertes lorsque certaines actions sont déclenchées sur mon compte ?","reception alertes","actions sur comptes","alertes"],
+        "reponses": ["Avec le nouveau centre \"Alertes\", vous pouvez paramétrer le déclenchement des alertes lorsque certains événements se produisent. Ces événements comprennent les seuils des soldes des comptes, des fonds insuffisants, le changement de mot de passe, service verrouillé, etc..."],
+        "context_set" : ""
+    },
+    {
+        "tag": "transaction",
+        "exemples": ["J’effectue habituellement la même transaction sur ATBNET, puis-je y accéder plus facilement ?","acces facile","habitude","transaction"],
+        "reponses": ["Vous pouvez sélectionner l’option \"Préférences\" de l’écran \"Accueil\" et sélectionner votre page par défaut. Par exemple, si vous effectuez habituellement des virements, vous pouvez sélectionner la page des virements à s’ouvrir en premier lorsque vous vous connectez à votre profile ATBNET."],
+        "context_set" : ""
+    },
+    {
+        "tag": "raccourcis",
+        "exemples": ["Je préfère avoir certains raccourcis organisés d’un seul côté. Est-ce possible ?","organiser","organisation","raccourcis","preferer","preference"],
+        "reponses": ["Avec la nouvelle interface ATBNET, vous pouvez facilement changer les positions des portlets en les faisant glisser à la position désirée et de sauvegarder la mise en page en cliquant sur le bouton de sauvegarde situé au-dessus de tout portlet."],
+        "context_set" : ""
+    },
+    {
+        "tag": "identifiant",
+        "exemples": ["J’ai oublié mon identifiant, comment puis-je s’en souvenir ?","identifiant","oublier identifiant","recuperer","recuperation identifiant"],
+        "reponses": ["Si vous avez oublié votre identifiant de banque à distance, vous devez appeler le centre de contact"],
+        "context_set" : ""
+    },
+    {
+        "tag": "mot de passe",
+        "exemples": ["J’ai oublié mon mot de passe, que dois-je faire ?","mot de passe","mot de passe oublier","oublier mon mot de passe","changer","changer mot de passe"],
+        "reponses": ["Veuillez contacter notre centre de relation client afin qu’il procède à la création d’un nouveau mot de passe."],
+        "context_set" : ""
+    },
+    {
+        "tag": "blocage",
+        "exemples": ["Mon mot de passe est bloqué en raison de la multiplication de mauvaises saisies. Comment puis-je accéder à nouveau au service ?","blocage","compte bloqué","pas d'acces a mon compte"],
+        "reponses": ["Vous devez juste appeler le centre de contact afin de débloquer votre mot de passe. Vous disposerez alors de 05 essais supplémentaires pour tenter d’accéder de nouveau à votre session."],
+        "context_set" : ""
+    },
+    {
+        "tag" : "bye",
+        "exemples": ["bye","au revoir","a la prochaine"],
+        "reponses": ["bye","a plus","bonne journée"],
+        "context_set" : ""
+    }
+]
+}
